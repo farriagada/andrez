@@ -1,6 +1,6 @@
 # Andrez, a simple and lightweight chess discord bot!
 
-Hi, I'm **Andrez**, a simple chess bot that will post a daily chess opening CHESS for you to study. I'm still in beta testing so you're gonna have to install me manually in order for me to work.  
+Hi, I'm **Andrez**, a simple chess bot that will post a daily chess opening for you to study. I'm still in beta testing so you're gonna have to install me manually in order for me to work.  
 
 
 ## How to install me

@@ -28,7 +28,8 @@ async def on_ready():
 async def on_message(message): # The main difference is that we only get one per request.  
     if message.author == client.user:
         return
-
+    # This module doesn't work because gifs are apparently heavier than what discord accepts. 
+    # The coding is right, though. 
     if message.content.startswith('https://lichess.org/'):
         try:
             # First, we get whatever is after /. 
@@ -72,7 +73,7 @@ async def on_message(message): # The main difference is that we only get one per
 
 
 # Scheduling one ECO Opening a day.                         
-@tasks.loop(hours=20)
+@tasks.loop(hours=24)
 async def daily_opening():
     chnl = client.get_channel(870427640601923655) # This is for general channel on my guild. Upgrade if we want to make the bot public. 
     found = False
